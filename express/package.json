@@ -1,0 +1,22 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonputra/tutorials.git"
+  },
+  "author": "Anton Putra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonputra/tutorials/issues"
+  },
+  "homepage": "https://github.com/antonputra/tutorials#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
