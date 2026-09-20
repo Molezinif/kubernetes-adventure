@@ -1,7 +1,5 @@
 CLUSTER := k8s-adventure
 
-.PHONY: cluster deploy metric-server metric-status expose-express load stop-load watch-all watch-hpa clean
-
 cluster:
 	kind create cluster --name $(CLUSTER)
 
